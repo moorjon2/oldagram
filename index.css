@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    width: 450px;
+    margin: 0 auto;
+}
+
+/* -----HEAD SECTION----- */
+
+.head {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-logo {
+    height: 80px;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.head-avatar {
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+/* -----POST AVATAR-----*/
+
+.post-head {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.post-avatar {
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.post-avatar-name, .post-avatar-location {
+    margin: 0;
+}
+
+.post-avatar-location {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.post-avatar-details {
+    padding-top: 30px;
+}
+
+.post-image {
+    width: 450px;
+}
+
+.post-icons, .post-likes, .post-comments {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.post-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+}
+
+.post-icon:hover {
+    cursor: pointer;
+}
+
+.post-avatar-name, .post-likes, .post-username {
+    font-weight: 900;
+}
+
+.post-username {
+    margin-right: 10px;
+}
+
+.post-comments {
+    margin-bottom: 20px;
+}
